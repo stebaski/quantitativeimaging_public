@@ -113,7 +113,7 @@ M = np.array([[a,b],[c,d]])
 #material decomposition
 mus_PMMA = [] 
 mus_Al = []
-with open("PMMAAl.txt") as f:
+with open("data/PMMAAl.txt") as f:
     for line in f:
         entries = line.split(',')
         if float(entries[0]) in Es:
